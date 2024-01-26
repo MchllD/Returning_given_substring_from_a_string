@@ -28,6 +28,12 @@ def count_substring(statement, substring):
       
 # Return the count of occurrences
     return count
+
+
 # Count occurrences of 'Emma'
+count_emma_result = count_substring("Emma is a good developer. Emma is a musician, she seamlessly combines technical expertise with artistic brilliance.", "Emma")
+print("Emma appeared", count_emma_result, "times")
+
+
 # Count occurrences of 'emma' (case-insensitive)
 # Combine the counts of 'Emma' and 'emma'
