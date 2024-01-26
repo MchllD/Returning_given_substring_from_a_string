@@ -40,3 +40,5 @@ count_emma_insensitive_result = count_substring("emma is good developer. emma is
 print("emma appeared", count_emma_insensitive_result, "times")
 
 # Combine the counts of 'Emma' and 'emma'
+combined_count = count_emma_result + count_emma_insensitive_result
+print("Total occurrences of 'Emma' and 'emma':", combined_count)
