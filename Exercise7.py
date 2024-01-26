@@ -17,7 +17,7 @@
 
 # Function to count occurrences of a substring in a given string
 def count_substring(statement, substring):
-    print(f"Given String: {statement}")
+    print(f"\nGiven String: {statement}")
     count = 0
 
 
@@ -39,6 +39,6 @@ print("Emma appeared", count_emma_result, "times")
 count_emma_insensitive_result = count_substring("emma is good developer. emma is a writer".lower(), "emma")
 print("emma appeared", count_emma_insensitive_result, "times")
 
-# Combine the counts of 'Emma' and 'emma'
+# Combining both counts
 combined_count = count_emma_result + count_emma_insensitive_result
-print("Total occurrences of 'Emma' and 'emma':", combined_count)
+print("\nTotal occurrences of 'Emma' and 'emma':", combined_count)
