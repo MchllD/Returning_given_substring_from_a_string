@@ -36,4 +36,7 @@ print("Emma appeared", count_emma_result, "times")
 
 
 # Count occurrences of 'emma' (case-insensitive)
+count_emma_insensitive_result = count_substring("emma is good developer. emma is a writer".lower(), "emma")
+print("emma appeared", count_emma_insensitive_result, "times")
+
 # Combine the counts of 'Emma' and 'emma'
