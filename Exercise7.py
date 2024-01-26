@@ -22,6 +22,7 @@ def count_substring(statement, substring):
 
 
 # Iterate over the indices of the statement
+    for i in range(len(statement) - len(substring) + 1):
 # Check if the substring matches the segment of the statement
 # Return the count of occurrences
 # Count occurrences of 'Emma'
